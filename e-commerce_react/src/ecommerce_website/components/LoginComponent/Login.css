@@ -1,0 +1,36 @@
+.login{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: fit-content;
+    height: fit-content;
+    margin-left: 150px;
+    margin-top: 75px;
+}
+.bg {
+    background-image: url('/public/LoginPageBg.png'); /* The public folder is the root for static assets */
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+}
+.btn{
+    background-color: orange;
+}
+.btn:hover{
+    background-color: rgb(255, 165, 100);
+    color: white;
+}
+#reg{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}

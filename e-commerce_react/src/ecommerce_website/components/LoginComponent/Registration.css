@@ -1,0 +1,81 @@
+/* Center the form on the page */
+.registration-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #ffefe2, #f9cda2);
+}
+
+/* Card styling */
+.registration-card {
+  background: #fff;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  width: 400px;
+}
+
+/* Title */
+.form-title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  color: #333;
+}
+
+/* Form styling */
+.registration-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form-row label {
+  width: 140px;
+  font-weight: bold;
+  color: #444;
+}
+
+.form-row input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  transition: border 0.3s ease;
+}
+
+.form-row input:focus {
+  border-color: #007bff;
+}
+
+/* Button */
+.form-button {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.form-button button {
+  background: #f8b400;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 8px;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  width: 100%;
+}
+
+.form-button button:hover {
+  background: #e09e00;
+}

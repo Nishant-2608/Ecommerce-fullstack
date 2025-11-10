@@ -1,0 +1,13 @@
+.Clothing{   
+    padding: 10px;
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+#Addcart:hover{
+    background-color: blue;
+}

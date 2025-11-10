@@ -1,0 +1,14 @@
+.main{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* height: 100vh;
+    max-width: 100%;  */
+    background: linear-gradient(135deg, #fee8d5, #f89e45);
+}
+.Appliance{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.Clothes{
+    margin-top: 20px;
+}

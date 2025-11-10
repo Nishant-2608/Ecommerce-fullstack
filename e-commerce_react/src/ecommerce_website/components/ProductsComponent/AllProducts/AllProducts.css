@@ -1,0 +1,14 @@
+.Products{   
+    padding: 10px;
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+}
+.container{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+#Addcart:hover{
+    background-color: blue;
+}
