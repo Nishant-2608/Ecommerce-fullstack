@@ -17,3 +17,18 @@ Thumbs.db
 
 # === MAVEN WRAPPER FILES ===
 !backend/.mvn/wrapper/maven-wrapper.jar
+
+# === FRONTEND (React) ===
+e-commerce_react/*
+!e-commerce_react/src/
+!e-commerce_react/src/**
+
+# Ignore everything else in React project
+e-commerce_react/node_modules/
+e-commerce_react/build/
+e-commerce_react/dist/
+e-commerce_react/public/
+e-commerce_react/package.json
+e-commerce_react/package-lock.json
+e-commerce_react/.env
+e-commerce_react/README.md
